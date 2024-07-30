@@ -23,6 +23,9 @@ const StarMap = ({ posts }) => {
     const controls = new OrbitControls(newCamera, newRenderer.domElement);
     newCamera.position.z = 5;
 
+    // 背景色の設定
+    newScene.background = new THREE.Color('#0a0a2a');
+
     setScene(newScene);
     setCamera(newCamera);
     setRenderer(newRenderer);

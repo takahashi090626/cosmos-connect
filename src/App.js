@@ -10,7 +10,7 @@ import PostDetail from './components/Post/PostDetail';
 import Navbar from './components/Navigation/Navbar';
 import UserProfile from './components/User/UserProfile';
 import './App.css';
-
+import GlobalStyle from './styles/GlobalStyle';
 function App() {
   const dispatch = useDispatch();
   const { isAuthenticated } = useSelector((state) => state.auth);
