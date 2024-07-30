@@ -1,4 +1,3 @@
-// src/styles/GlobalStyle.js
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
@@ -10,27 +9,40 @@ const GlobalStyle = createGlobalStyle`
     color: #ffffff;
   }
 
-  canvas {
-    width: 100vw;
-    height: 100vh;
+  .star {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #ffffff;
   }
 
-  nav {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 1rem;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: space-around;
+  .big-star {
+    width: 50px;
+    height: 50px;
+  }
+
+  .medium-star {
+    width: 30px;
+    height: 30px;
+  }
+
+  .small-star {
+    width: 15px;
+    height: 15px;
+  }
+
+  .user-spaceship {
+    font-size: 2rem;
+  }
+
+  .constellation {
+    border: 1px dashed #ffffff;
   }
 
   a, button {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    border: 1px solid white;
+    border: 1px solid #ffffff;
     border-radius: 5px;
     background: none;
     cursor: pointer;

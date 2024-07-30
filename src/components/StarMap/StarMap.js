@@ -67,7 +67,7 @@ const StarMap = ({ posts }) => {
     });
 
     // カメラの位置を調整
-    camera.position.z = 15;
+    camera.position.z = 30;
 
   }, [posts, scene, camera]);
 

@@ -30,7 +30,7 @@ class Star extends THREE.Mesh {
     });
     const textMaterial = new THREE.MeshBasicMaterial({ color: 0xffffff });
     const textMesh = new THREE.Mesh(textGeometry, textMaterial);
-    textMesh.position.set(-0.25, -0.25, 0.5); // テキストの位置を調整
+    textMesh.position.set(-0.25, -0.75, 0.5); // テキストの位置を調整
     this.add(textMesh);
   }
 }

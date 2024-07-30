@@ -42,10 +42,10 @@ const Login = () => {
           placeholder="Password"
           required
         />
-        <button type="submit">Login</button>
+        <button type="submit">宇宙の旅へ</button>
         {error && <p className="error">{error}</p>}
         <p>
-          Don't have an account? <Link to="/register">Register here</Link>
+          アカウントを持っていない方<Link to="/register">新規登録</Link>
         </p>
       </form>
     </div>

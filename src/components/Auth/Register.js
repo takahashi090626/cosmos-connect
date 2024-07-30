@@ -47,7 +47,7 @@ const Register = () => {
           placeholder="Password"
           required
         />
-        <button type="submit">Register</button>
+        <button type="submit">新規登録</button>
         {error && <p className="error">{error}</p>}
         <p>
           Already have an account? <Link to="/login">Login here</Link>
